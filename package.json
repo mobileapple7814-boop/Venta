@@ -1,0 +1,21 @@
+{
+  "name": "vanta-core",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run-all.mjs"
+  },
+  "devDependencies": {},
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ws": "^8.18.0",
+    "ioredis": "^5.4.1"
+  }
+}
